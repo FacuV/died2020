@@ -32,7 +32,7 @@ public class PedidoBasico extends Pedido{
     }
     @Override
     public double comision(){
-        if(LocalDate.now().isAfter(date)){return precio()*1.10;}
+        if(LocalDate.now().isAfter(date)){return precio()*0.10;}
         else{return 0;}
     }
 }

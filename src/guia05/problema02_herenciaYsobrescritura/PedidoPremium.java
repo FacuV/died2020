@@ -26,9 +26,9 @@ public class PedidoPremium extends Pedido{
     public double comision() {
         if(LocalDate.now().isAfter(date)) {
             if (productos.size() > 10) {
-                return (precio() * 1.15 + 50);
+                return (precio() * 0.15 + 50);
             } else {
-                return precio() * 1.15;
+                return precio() * 0.15;
             }
         }else{
             return 0;

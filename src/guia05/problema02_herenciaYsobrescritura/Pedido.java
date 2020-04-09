@@ -1,9 +1,11 @@
 package guia05.problema02_herenciaYsobrescritura;
 
+import guia05.problema03_interfaces.Comisionable;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-public class Pedido {
+public class Pedido implements Comisionable{
     protected int productosMax;
     LocalDate date;
     ArrayList<Producto> productos = new ArrayList<Producto>();

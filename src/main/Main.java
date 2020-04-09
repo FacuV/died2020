@@ -2,6 +2,8 @@ package main;
 
 import guia05.problema02_herenciaYsobrescritura.App;
 
+import java.time.LocalTime;
+
 public class Main {
     public static void main(String[] args){
         /*
@@ -10,5 +12,6 @@ public class Main {
          */
         App prueba = new App();
         prueba.app();
+
     }
 }
